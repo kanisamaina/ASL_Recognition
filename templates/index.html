@@ -24,7 +24,7 @@
         }
     }
 </style>
-<center><h2>ASL Recognition with Deep Learning</h2></center>
+<center><h2>ASL Recognition with CNN</h2></center>
 {% if message %}
     <br>
     <div class="alert alert-danger">
@@ -55,10 +55,10 @@
             <form class="form-horizontal" method="POST" enctype="multipart/form-data">
                 <div class="row">
                     <div class="col-md-6" style="margin-top:10px;">
-                        <input class="btn btn-block btn-info" onchange="readURL(this);" type="file" name="image" placeholder="Upload Image">
+                        <input class="btn btn-block btn-warning" onchange="readURL(this);" type="file" name="image" placeholder="Upload Image">
                     </div>
                     <div class="col-md-6" style="margin-top:10px;">
-                        <input type="submit" class="btn btn-primary btn-block" value="Predict">
+                        <input type="submit" class="btn btn-warning btn-block" value="Predict">
                     </div>
                 </div>
             </form>
