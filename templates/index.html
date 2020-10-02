@@ -24,7 +24,7 @@
         }
     }
 </style>
-<center><h2>ASL Recognition with CNN</h2></center>
+<center><h2>ASL Recognition with Deep Learning</h2></center>
 {% if message %}
     <br>
     <div class="alert alert-danger">
@@ -40,9 +40,9 @@
 <br>
 <div class="row">
     <div class="col-md-6" style="box-shadow: 0 0 10px black;">
-        <center><h3>ASL Recognition</h3></center>
+        <center><h3>Project Description</h3></center>
             <p>American Sign Language (ASL) is the primary language used by many deaf individuals in North America, and it is also used by hard-of-hearing and hearing individuals. The language is as rich as spoken languages and employs signs made with the hand, along with facial gestures and bodily postures.</p>
-            <h3>Tasks done</h3>
+            <h3>Project Tasks</h3>
             <ul>
                 <li>Examine the dataset</li>
                 <li>One-hot encode the data</li>
@@ -55,7 +55,7 @@
             <form class="form-horizontal" method="POST" enctype="multipart/form-data">
                 <div class="row">
                     <div class="col-md-6" style="margin-top:10px;">
-                        <input class="btn btn-block btn-warning" onchange="readURL(this);" type="file" name="image" placeholder="Upload Image">
+                        <input class="btn btn-block btn-info" onchange="readURL(this);" type="file" name="image" placeholder="Upload Image">
                     </div>
                     <div class="col-md-6" style="margin-top:10px;">
                         <input type="submit" class="btn btn-primary btn-block" value="Predict">
@@ -65,7 +65,7 @@
     </div>
     <div class="col-md-6">
         <center>
-            <img id="blah" src="/static/Video.gif" style="height:400px;box-shadow: 0 0 10px black;" class="img-fluid img-thumbnail">
+            <img id="blah" src="/static/images/ASL_Detection.gif" style="height:400px;box-shadow: 0 0 10px black;" class="img-fluid img-thumbnail">
         </center>
     </div>
 </div>
