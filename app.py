@@ -2,7 +2,7 @@ import numpy as np
 from PIL import Image
 from flask import Flask, render_template, request
 
-from ASL_Camera import image_predict
+from ASL_Predictor import image_predict
 
 app = Flask(__name__)
 
